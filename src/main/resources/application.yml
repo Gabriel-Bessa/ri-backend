@@ -1,0 +1,17 @@
+spring:
+  elasticsearch:
+    uris: elasticsearch:9200
+  data:
+    mongodb:
+      username: labkombessatec01
+      password: wFh94uhO6UQ8
+      host: mongodb.labkombessatech.kinghost.net
+      port: 27017
+      database: labkombessatec01
+  servlet:
+    multipart:
+      max-file-size: 150MB
+      max-request-size: 150MB
+
+ri_final:
+  crawler-url: ri-ms-crawler:8000
